@@ -194,6 +194,7 @@ body {
   }
 }
 
+
 @media (max-width: 798px) {
   .mid .car {
     font-size: 2rem;
@@ -208,6 +209,85 @@ body {
     }
   }
 
+  .best {
+    .item {
+      overflow-x: scroll;
+    }
+  }
+}
+@media (max-width: 568px) {
+  .mid{
+    .car{
+      font-size: 1.5rem;
+    }
+    .cat {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+      padding: 50px 60px;
+  
+      p {
+        font-size: 1.1rem;
+        margin: 0;
+      }
+  
+      img {
+        width: 4rem;
+        height: 4rem;
+        padding: 10px;
+        border-radius: 100%;
+        /* border: 1px rgb(138, 138, 138) solid; */
+      }
+  
+      button{
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .best {
+      padding: 10px 60px;
+  
+      .card {
+        box-shadow: 0 0 1px rgb(167, 167, 167);
+        border-radius: 10px;
+  
+        .card-body {
+          padding: 10px;
+  
+          .price {
+            font-size: 1rem;
+          }
+        }
+      }
+  
+      .title {
+        font-size: 1.9rem;
+        font-weight: bold;
+      }
+  
+      .item {
+        display: flex;
+        justify-content: start;
+        gap: 20px;
+  
+        p {
+          font-size: 1.3rem;
+          margin: 0;
+        }
+  
+        /* justify-content: space-evenly; */
+  
+        img {
+          width: 8rem;
+          height: 6rem;
+          border-radius: 10px;
+        }
+      }
+    }
+  
+  }
   .best {
     .item {
       overflow-x: scroll;
