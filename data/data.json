@@ -1,0 +1,65 @@
+{
+    "user":[
+        {
+            "id":1,
+            "role":"user",
+            "email":"User@gmail.com",
+            "pass" : "user123"
+        },
+        {
+            "id": 2,
+            "role":"admin",
+            "email":"admin@gmail.com",
+            "pass": "admin123"
+        }
+    ],
+
+    "Point":[
+        {
+            "price":"100000",
+            "harga":40000
+        },
+        {
+            "price" : "200000",
+            "harga" : 70000
+        },
+        {
+            "price" : "50000",
+            "harga" : 20000
+        }
+    ],
+
+    "Reedem" :  [
+        {
+            "image" : "./../Assets/barang/pot.jpeg",
+            "barang": "Pot Bunga",
+            "harga" : "55000"
+        },
+        {
+            "image":"./../assets/barang/lukisan.jpeg",
+            "barang" : "Lukisan",
+            "harga" : "60000"
+        },
+        {
+            "image":"./../assets/barang/download.jpeg",
+            "barang" : "Telur",
+            "harga":"50000"
+        },
+        {
+            "image":"./../assets/barang/pott.jpg",
+            "barang" : "Pot bunga kecil",
+            "harga":"35000"
+        },
+        {
+            "image":"./../assets/barang/keranjang.jpg",
+            "barang" : "Keranjang",
+            "harga":"65000"
+        },
+        {
+            "image":"./../assets/barang/tass.jpg",
+            "barang" : "Tas",
+            "harga":"70000"
+        }
+        
+    ]
+}
