@@ -21,9 +21,18 @@
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
             </ul> -->
-            <div class="input">
-                <input type="text" name="" id="" placeholder="Search">
-            </div>
+            <ul>
+                <li>
+                    <div class="input">
+                        <input type="text" name="" id="" placeholder="Search">
+                    </div>
+                </li>
+                <li>
+                    <button onclick="login()" class="login">
+                        Login
+                    </button>
+                </li>                
+            </ul>
             <div class="burger">
                 <a href="javascript:void(1);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -152,5 +161,9 @@
     </div>
 </body>
 <script src="./../index.js"></script>
-
+<script>
+    function login(){
+        window.location.href = "./login.html"
+    }
+</script>
 </html>

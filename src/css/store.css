@@ -62,6 +62,15 @@ body {
             gap: 50px;
             font-size: 1.2rem;
 
+            .login{
+                border: 1px #5b5b5b solid;
+                color: #5b5b5b;
+                border-radius: 10px;            
+                padding: 4px 10px;
+                /* width: 50%; */
+                cursor: pointer;
+            }
+
             li {
                 margin-bottom: 10px;
             }
