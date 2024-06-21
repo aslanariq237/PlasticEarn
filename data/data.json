@@ -36,27 +36,27 @@
             "harga" : "55000"
         },
         {
-            "image":"./../assets/barang/lukisan.jpeg",
+            "image":"./../Assets/barang/lukisan.jpeg",
             "barang" : "Lukisan",
             "harga" : "60000"
         },
         {
-            "image":"./../assets/barang/download.jpeg",
+            "image":"./../Assets/barang/download.jpeg",
             "barang" : "Telur",
             "harga":"50000"
         },
         {
-            "image":"./../assets/barang/pott.jpg",
+            "image":"./../Assets/barang/pott.jpg",
             "barang" : "Pot bunga kecil",
             "harga":"35000"
         },
         {
-            "image":"./../assets/barang/keranjang.jpg",
+            "image":"./../Assets/barang/keranjang.jpg",
             "barang" : "Keranjang",
             "harga":"65000"
         },
         {
-            "image":"./../assets/barang/tass.jpg",
+            "image":"./../Assets/barang/tass.jpg",
             "barang" : "Tas",
             "harga":"70000"
         }
