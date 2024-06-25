@@ -12,7 +12,7 @@
 
 <body>
     <div class="home">
-        <div class="nav" id="myNav">
+        <div class="nav responsive" id="myNav">
             <div class="title">
                 <p><a href="./index.html">PlasticEarn</a></p>
             </div>
@@ -26,7 +26,7 @@
                     <button onclick="login()" class="login">
                         Login
                     </button>
-                </li>                
+                </li>
             </ul>
             <div class="burger">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -60,7 +60,7 @@
                         <p>Store</p>
                     </div>
                 </button>
-            </div> 
+            </div>
             <div class="tp">
                 <div class="tle">
                     <p>Hello <span>Wahyu</span></p>
@@ -76,18 +76,20 @@
                     <p>Persentase Pembuangan Sampah</p>
                 </div>
                 <div class="total">
-                    <p>Total Reedem History</p>
-                    <div class="wd">
-                        <h3>Rp. 2.000.000</h3>
-                        <p>from</p>
-                        <span><img src="./../Assets/icon/point.png" alt=""> 700.000</span>
-                    </div>
-                    <div class="reedem">
-                        <button class="r2" onclick="down">
-                            <p>Reedem Point</p>
-                            <img id="down" src="./../Assets/icon/up.jpeg" alt="">
-                        </button>
-                        <button class="submit">Submit</button>
+                    <div class="in">
+                        <p>Total Reedem History</p>
+                        <div class="wd">
+                            <h3>Rp. 2.000.000</h3>
+                            <p>from</p>
+                            <span><img src="./../Assets/icon/point.png" alt=""> 700.000</span>
+                        </div>
+                        <div class="reedem">
+                            <button class="r2" onclick="down">
+                                <p>Reedem Point</p>
+                                <img id="down" src="./../Assets/icon/up.jpeg" alt="">
+                            </button>
+                            <button class="submit">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,8 +98,9 @@
 </body>
 <script src="./../index.js"></script>
 <script>
-    function login(){
+    function login() {
         window.location.href = "./login.html"
     }
 </script>
+
 </html>

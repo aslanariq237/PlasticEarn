@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: #00D1FF;
+    font-family: "Poppins", sans-serif  ;
+}
+
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+
+    form{
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        /* width: 50%; */
+        .email{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .password{
+            width: 100%;
+        }
+
+        input{
+            border-radius: 10px;
+            padding: 0 15px;
+            border: 1px rgb(142, 142, 142) solid;
+            width: 90%;
+            height: 30px;
+        }
+
+        .r{
+            display: flex;
+            flex-direction: column;
+            font-weight: bolder;
+        }
+        .c{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-weight: bolder;
+            padding: 10px 30px;
+            .conf-pass{
+                margin-bottom: 1.2rem;
+                width: 50%;
+            }
+    
+            input{
+                border-radius: 10px;
+                padding: 0 15px;
+                border: 1px rgb(142, 142, 142) solid;
+                /* width: 100%; */
+                height: 30px;
+            }
+            span{
+                color: #1471B0;
+            }
+    
+            button{
+                margin-top: 10px;
+                padding: 4px 20px;
+                height: 30px;
+                border-radius: 10px;
+                background-color: #1471B0;
+                color: #f0f0f0;;
+            }
+            .one{
+                img{
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+        }
+    }
+}

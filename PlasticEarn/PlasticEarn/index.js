@@ -19,7 +19,3 @@ function myFunction() {
       x.className = "nav";
     }
 }
-
-function down() {
-  document.getElementById('down')
-}
